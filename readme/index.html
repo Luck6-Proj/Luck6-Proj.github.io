@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ReadMe</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body style="background: #222222; ">
+  <div class="header">
+    <button onclick="jump('../index.html')">返回</button>
+    <span>ReadMe</span>
+  </div>
+  <div class="content">
+    <h2>简介</h2>
+    <span>
+      <p>本项目提供免费的群组管理机器人，可提供的服务众多，选其中主要功能罗列如下：</p>
+      <ol>
+        <li>入群验证 (可自动叠加、避免验证码刷屏、防炸群，可自动免验证，支持自定义问题、自定义提示)</li>
+        <li>可设置自动删除各种类型的消息。除加群消息、入群消息、和其他 Telegram 的基本类型消息外，
+          还能识别并删除推广链接、电话号码、二维码、联系方式等等</li>
+        <li>可定时清理已销号用户 (Delete Account) 、定时清理群组中的贴纸和动图</li>
+        <li>可设置允许群员自助删除自己所发的全部消息</li>
+        <li>管理员通过命令指定集中删除某范围内的消息</li>
+        <li>可设置自动删除文字中包含特定语言的消息，自动封禁昵称 / 简介中包含特定语言的用户，
+          其中，「特定语言」列表可自定义，支持几十余种语言</li>
+        <li>可设置自动删除群组指定的消息文字达到特定长度以上的消息</li>
+        <li>可设置自动删除刷屏消息，对于判断「刷屏」的发言频率，是群组可以自定义的</li>
+        <li>自动删除包含色情画面的媒体消息；自动删除来自 Telegram 官方限制频道的消息</li>
+        <li>自动封禁昵称、简介、头像中包含广告的用户；自动封禁发送广告的用户</li>
+        <li>可设置自动阻止普通群员拉入机器人</li>
+        <li>可设置对新入群用户的发言进行一定限制</li>
+        <li>发送自定义的入群欢迎消息 (可带按钮，按钮自动排列)</li>
+        <li>自定义关键词自动回复 (可带按钮，按钮自动排列)</li>
+        <li>可设置群组绑定公开频道，在其中提供定时刷新的私有群组的入群链接</li>
+        <li>群员警告管理 (/warn、/ban、/kick、/report、/admin)</li>
+      </ol>
+    </span>
+  </div>
+</body>
+<script src="../global.js"></script>
+<script src="./script.js"></script>
+</html>
